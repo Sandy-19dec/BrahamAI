@@ -83,20 +83,55 @@ if "is_admin" not in st.session_state:
     st.session_state["is_admin"] = False
 
 if not st.session_state["is_admin"]:
-    st.error("🔒 Restricted Area: Admin Privileges Required to view Analytics Dashboard.")
-    
-    with st.form("admin_login_form"):
-        a_user = st.text_input("Admin Username")
-        a_pass = st.text_input("Admin Password", type="password")
-        if st.form_submit_button("Access Dashboard"):
-            user_info = db.verify_user(a_user, a_pass)
-            if user_info and user_info.get("is_admin"):
-                st.session_state["logged_in"] = True
-                st.session_state["username"] = user_info["username"]
-                st.session_state["is_admin"] = True
-                st.rerun()
-            else:
-                st.error("Invalid credentials or you lack admin privileges.")
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+    .main { background: #0a0a0f; }
+    header { background: transparent !important; }
+    [data-testid="stSidebar"] { display: none; }
+    .admin-card {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 16px;
+        padding: 3rem;
+        text-align: center;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        margin-top: 5rem;
+    }
+    .admin-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .admin-title { color: white; font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .admin-sub { color: #888; font-size: 0.95rem; margin-bottom: 2.5rem; }
+    div[data-testid="stForm"] { border: none !important; background: transparent !important; padding:0; }
+    div[data-testid="stButton"] button {
+        background: #667eea !important; color: white !important; font-weight: 600 !important;
+        border-radius: 8px !important; border: none !important; padding: 0.6rem !important; width: 100%;
+        margin-top: 1rem;
+    }
+    div[data-testid="stButton"] button:hover { opacity: 0.8 !important; }
+    </style>
+    """, unsafe_allow_html=True)
+
+    c1, c2, c3 = st.columns([1, 1.2, 1])
+    with c2:
+        st.markdown('<div class="admin-card">', unsafe_allow_html=True)
+        st.markdown('<div class="admin-icon">🛡️</div>', unsafe_allow_html=True)
+        st.markdown('<div class="admin-title">Admin Restricted Area</div>', unsafe_allow_html=True)
+        st.markdown('<div class="admin-sub">Please verify your identity to access BrahamAI Analytics and metrics.</div>', unsafe_allow_html=True)
+        
+        with st.form("admin_login_form"):
+            a_user = st.text_input("Username", placeholder="Authorized Personnel Only")
+            a_pass = st.text_input("Password", type="password", placeholder="••••••••")
+            if st.form_submit_button("Authenticate"):
+                user_info = db.verify_user(a_user, a_pass)
+                if user_info and user_info.get("is_admin"):
+                    st.session_state["logged_in"] = True
+                    st.session_state["username"] = user_info["username"]
+                    st.session_state["is_admin"] = True
+                    st.rerun()
+                else:
+                    st.error("Authentication Failed. Invalid credentials or insufficient permissions.")
+        st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
 
 st.markdown("""
