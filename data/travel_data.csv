@@ -1,56 +1,105 @@
-Destination,Budget,Type,Season,Rating,Duration
-Goa,15000,Beach,Winter,4.5,5
-Manali,12000,Adventure,Summer,4.7,6
-Kerala,18000,Nature,Winter,4.8,7
-Rajasthan,20000,Cultural,Winter,4.6,8
-Andaman Islands,35000,Beach,Summer,4.9,7
-Shimla,10000,Adventure,Summer,4.4,4
-Ooty,8000,Nature,Summer,4.3,3
-Varanasi,9000,Cultural,Winter,4.5,4
-Coorg,11000,Nature,Monsoon,4.6,3
-Leh Ladakh,25000,Adventure,Summer,4.9,8
-Rishikesh,7000,Adventure,Summer,4.5,4
-Mysore,9000,Cultural,Winter,4.4,3
-Darjeeling,13000,Nature,Summer,4.6,5
-Agra,10000,Cultural,Winter,4.3,2
-Jaipur,14000,Cultural,Winter,4.7,4
-Mumbai,20000,City,Winter,4.2,3
-Delhi,15000,City,Winter,4.1,3
-Kolkata,12000,Cultural,Winter,4.3,3
-Hampi,8000,Cultural,Winter,4.8,3
-Puducherry,11000,Beach,Winter,4.5,4
-Munnar,14000,Nature,Monsoon,4.7,4
-Spiti Valley,22000,Adventure,Summer,4.8,7
-Udaipur,16000,Cultural,Winter,4.8,5
-Kodaikanal,9000,Nature,Summer,4.4,3
-Varkala,13000,Beach,Winter,4.6,4
-Sikkim,18000,Nature,Summer,4.7,6
-Pushkar,10000,Cultural,Winter,4.5,3
-Jim Corbett,17000,Wildlife,Winter,4.6,4
-Ranthambore,19000,Wildlife,Winter,4.7,4
-Kaziranga,21000,Wildlife,Summer,4.8,5
-Mahabaleshwar,10000,Nature,Monsoon,4.4,3
-Alibaug,8000,Beach,Winter,4.2,2
-Diu,12000,Beach,Summer,4.3,3
-Bikaner,11000,Cultural,Winter,4.4,3
-Amritsar,9000,Cultural,Winter,4.7,3
-Haridwar,7000,Cultural,Summer,4.4,2
-Auli,20000,Adventure,Winter,4.8,5
-Chopta,14000,Adventure,Winter,4.7,4
-Valley of Flowers,23000,Nature,Monsoon,4.9,6
-Lansdowne,8000,Nature,Summer,4.3,3
-Mussoorie,11000,Nature,Summer,4.5,4
-Nainital,10000,Nature,Summer,4.4,3
-McLeod Ganj,12000,Adventure,Summer,4.6,4
-Kasol,9000,Adventure,Summer,4.7,4
-Tawang,28000,Cultural,Summer,4.8,7
-Ziro,20000,Nature,Summer,4.7,5
-Majuli,18000,Cultural,Monsoon,4.6,5
-Dzukou Valley,22000,Nature,Monsoon,4.8,5
-Coorg,11000,Nature,Winter,4.6,3
-Wayanad,13000,Wildlife,Monsoon,4.7,4
-Khajuraho,11000,Cultural,Winter,4.6,3
-Ellora,10000,Cultural,Winter,4.7,3
-Ajanta,9000,Cultural,Summer,4.7,2
-Mahabalipuram,12000,Cultural,Winter,4.5,3
-Kovalam,14000,Beach,Winter,4.6,4
+Destination,Budget,Type,Season,Rating,Duration,State,Description
+Goa,15000,Beach,Winter,4.5,5,Goa,Sun-kissed beaches with vibrant nightlife and Portuguese heritage
+Manali,12000,Adventure,Summer,4.7,6,Himachal Pradesh,Snow-capped mountains with thrilling treks and river rafting
+Kerala,18000,Nature,Winter,4.8,7,Kerala,God's Own Country with serene backwaters and lush greenery
+Rajasthan,20000,Cultural,Winter,4.6,8,Rajasthan,Royal palaces and golden deserts with rich Rajput heritage
+Andaman Islands,35000,Beach,Summer,4.9,7,Andaman & Nicobar,Crystal clear waters with world-class snorkeling and diving
+Shimla,10000,Adventure,Summer,4.4,4,Himachal Pradesh,Queen of Hills with colonial charm and apple orchards
+Ooty,8000,Nature,Summer,4.3,3,Tamil Nadu,Nilgiri hills with toy train rides and tea gardens
+Varanasi,9000,Cultural,Winter,4.5,4,Uttar Pradesh,Oldest living city with sacred ghats and spiritual vibes
+Coorg,11000,Nature,Monsoon,4.6,3,Karnataka,Scotland of India with coffee plantations and misty hills
+Leh Ladakh,25000,Adventure,Summer,4.9,8,Ladakh,Breathtaking high-altitude desert with monasteries and pangong lake
+Rishikesh,7000,Adventure,Summer,4.5,4,Uttarakhand,Yoga capital of the world with white water rafting
+Mysore,9000,Cultural,Winter,4.4,3,Karnataka,City of palaces with Dasara festival and sandalwood
+Darjeeling,13000,Nature,Summer,4.6,5,West Bengal,Tea capital with Himalayan views and toy train heritage
+Agra,10000,Cultural,Winter,4.3,2,Uttar Pradesh,Home of Taj Mahal and Mughal architectural wonders
+Jaipur,14000,Cultural,Winter,4.7,4,Rajasthan,Pink City with magnificent forts and colorful bazaars
+Mumbai,20000,City,Winter,4.2,3,Maharashtra,City of dreams with Bollywood glamour and street food
+Delhi,15000,City,Winter,4.1,3,Delhi,Capital city with historical monuments and diverse cuisine
+Kolkata,12000,Cultural,Winter,4.3,3,West Bengal,City of Joy with colonial architecture and art scene
+Hampi,8000,Cultural,Winter,4.8,3,Karnataka,UNESCO heritage site with stunning Vijayanagara ruins
+Puducherry,11000,Beach,Winter,4.5,4,Puducherry,French Riviera of India with serene beaches and cafes
+Munnar,14000,Nature,Monsoon,4.7,4,Kerala,Rolling tea gardens with misty mountains and wildlife
+Spiti Valley,22000,Adventure,Summer,4.8,7,Himachal Pradesh,Cold desert with ancient monasteries and dramatic landscapes
+Udaipur,16000,Cultural,Winter,4.8,5,Rajasthan,City of Lakes with fairy-tale palaces and romantic sunsets
+Kodaikanal,9000,Nature,Summer,4.4,3,Tamil Nadu,Princess of Hill stations with star-shaped lake and pine forests
+Varkala,13000,Beach,Winter,4.6,4,Kerala,Cliff-top beach with ayurvedic treatments and natural spring
+Sikkim,18000,Nature,Summer,4.7,6,Sikkim,Buddhist kingdom with Kanchenjunga views and rhododendrons
+Pushkar,10000,Cultural,Winter,4.5,3,Rajasthan,Holy city with sacred lake and famous camel fair
+Jim Corbett,17000,Wildlife,Winter,4.6,4,Uttarakhand,India's oldest national park with Bengal tigers
+Ranthambore,19000,Wildlife,Winter,4.7,4,Rajasthan,Best place to spot wild tigers in their natural habitat
+Kaziranga,21000,Wildlife,Summer,4.8,5,Assam,UNESCO site famous for one-horned rhinoceros
+Mahabaleshwar,10000,Nature,Monsoon,4.4,3,Maharashtra,Strawberry capital with panoramic valley views
+Alibaug,8000,Beach,Winter,4.2,2,Maharashtra,Peaceful beach town near Mumbai with historic forts
+Diu,12000,Beach,Summer,4.3,3,Diu,Portuguese influenced island with pristine beaches
+Bikaner,11000,Cultural,Winter,4.4,3,Rajasthan,Camel country with magnificent Junagarh Fort
+Amritsar,9000,Cultural,Winter,4.7,3,Punjab,Golden Temple and Wagah border ceremony
+Haridwar,7000,Cultural,Summer,4.4,2,Uttarakhand,Gateway to Gods with Ganga Aarti and ashrams
+Auli,20000,Adventure,Winter,4.8,5,Uttarakhand,India's premier ski resort with Himalayan panorama
+Chopta,14000,Adventure,Winter,4.7,4,Uttarakhand,Mini Switzerland of India with Tungnath trek
+Valley of Flowers,23000,Nature,Monsoon,4.9,6,Uttarakhand,UNESCO site blooming with alpine flowers
+Lansdowne,8000,Nature,Summer,4.3,3,Uttarakhand,Quaint hill station with oak forests and colonial charm
+Mussoorie,11000,Nature,Summer,4.5,4,Uttarakhand,Queen of Hills with Kempty Falls and Lal Tibba
+Nainital,10000,Nature,Summer,4.4,3,Uttarakhand,Lake district with boating and snow viewpoints
+McLeod Ganj,12000,Adventure,Summer,4.6,4,Himachal Pradesh,Little Lhasa with Tibetan culture and Dalai Lama temple
+Kasol,9000,Adventure,Summer,4.7,4,Himachal Pradesh,Himalayan backpacker haven with Parvati river
+Tawang,28000,Cultural,Summer,4.8,7,Arunachal Pradesh,Remote monastery town near China border
+Ziro,20000,Nature,Summer,4.7,5,Arunachal Pradesh,UNESCO tentative site with Apatani tribal culture
+Majuli,18000,Cultural,Monsoon,4.6,5,Assam,World's largest river island with Vaishnavite culture
+Wayanad,13000,Wildlife,Monsoon,4.7,4,Kerala,Tribal forests with waterfalls and wildlife sanctuary
+Khajuraho,11000,Cultural,Winter,4.6,3,Madhya Pradesh,UNESCO temples with exquisite erotic sculptures
+Ellora,10000,Cultural,Winter,4.7,3,Maharashtra,Rock-cut cave temples spanning Hindu Buddhist Jain faiths
+Ajanta,9000,Cultural,Summer,4.7,2,Maharashtra,UNESCO Buddhist cave paintings from 2nd century BC
+Mahabalipuram,12000,Cultural,Winter,4.5,3,Tamil Nadu,Shore temple and rock reliefs by the Bay of Bengal
+Kovalam,14000,Beach,Winter,4.6,4,Kerala,Crescent shaped beach with lighthouse and ayurveda
+Dzukou Valley,22000,Nature,Monsoon,4.8,5,Nagaland,Seasonal blooms in remote valley on Nagaland border
+Sandakphu,24000,Adventure,Summer,4.8,6,West Bengal,Highest peak in West Bengal with Everest views
+Chopta Tungnath,16000,Adventure,Winter,4.7,4,Uttarakhand,Highest Shiva temple in world at 3680m
+Gokarna,10000,Beach,Winter,4.6,3,Karnataka,Om Beach and pristine coves for backpackers
+Hampta Pass,18000,Adventure,Summer,4.8,5,Himachal Pradesh,Stunning crossover trek from Kullu to Lahaul
+Coorg Dubare,13000,Wildlife,Monsoon,4.5,3,Karnataka,Elephant camp experience on Kaveri river
+Pangong Lake,26000,Nature,Summer,4.9,4,Ladakh,Mesmerizing high altitude lake spanning India and China
+Nubra Valley,27000,Adventure,Summer,4.8,5,Ladakh,Double humped camel rides in cold desert
+Zanskar,30000,Adventure,Summer,4.7,7,Ladakh,Remote valley with frozen river trek in winter
+Chettinad,12000,Cultural,Winter,4.6,3,Tamil Nadu,Palatial mansions and unique spicy cuisine
+Pondicherry,11000,Beach,Winter,4.5,3,Puducherry,Franco-Tamil culture with ashrams and beaches
+Vizag,14000,Beach,Winter,4.4,4,Andhra Pradesh,City of Destiny with Araku Valley and submarine museum
+Coimbatore,9000,City,Summer,4.2,2,Tamil Nadu,Manchester of India with gateway to Ooty
+Madurai,10000,Cultural,Winter,4.6,3,Tamil Nadu,Temple city with magnificent Meenakshi Amman temple
+Rameswaram,11000,Cultural,Winter,4.7,3,Tamil Nadu,Sacred island temple and Pamban bridge
+Kanyakumari,12000,Nature,Winter,4.5,3,Tamil Nadu,Southernmost tip where three seas meet
+Chikmagalur,11000,Nature,Monsoon,4.6,3,Karnataka,Coffee land with Mullayanagiri peak and waterfalls
+Sakleshpur,9000,Nature,Monsoon,4.4,2,Karnataka,Coffee and pepper estates with trekking trails
+Yercaud,7000,Nature,Summer,4.3,2,Tamil Nadu,Jewel of the South with serene lake and orchards
+Yelagiri,6000,Nature,Summer,4.2,2,Tamil Nadu,Offbeat hill station with paragliding and boating
+Panchgani,9000,Nature,Summer,4.4,3,Maharashtra,Five hills with Table Land and strawberry farms
+Matheran,8000,Nature,Summer,4.3,2,Maharashtra,No-vehicle hill station accessible by toy train
+Aurangabad,12000,Cultural,Winter,4.5,3,Maharashtra,Gateway to Ajanta Ellora with Bibi Ka Maqbara
+Nashik,10000,Cultural,Monsoon,4.4,3,Maharashtra,Wine capital and pilgrimage city on Godavari
+Lonavala,8000,Nature,Monsoon,4.3,2,Maharashtra,Misty hills with Bhushi Dam and chikki sweets
+Kolad,7000,Adventure,Monsoon,4.5,2,Maharashtra,White water rafting on Kundalika river
+Tarkarli,11000,Beach,Winter,4.6,3,Maharashtra,Scuba diving and snorkeling on Konkan coast
+Malvan,10000,Beach,Winter,4.5,3,Maharashtra,Sindhudurg fort and Malvani seafood paradise
+Murudeshwar,12000,Beach,Winter,4.6,3,Karnataka,Tallest Shiva statue on Arabian Sea cliff
+Udupi,10000,Cultural,Winter,4.5,3,Karnataka,Temple town with famous Udupi cuisine
+Mangalore,11000,Beach,Winter,4.3,3,Karnataka,Port city with beaches and seafood culture
+Kabini,20000,Wildlife,Winter,4.8,4,Karnataka,Premium wildlife resort on Kabini reservoir
+Bandipur,18000,Wildlife,Winter,4.7,3,Karnataka,Tiger reserve with elephant safari
+Nagarhole,19000,Wildlife,Winter,4.7,4,Karnataka,Dense forest with leopards and wild dogs
+Coorg Madikeri,12000,Nature,Monsoon,4.6,3,Karnataka,Raja's Seat and Abbey Falls in coffee country
+Dandeli,14000,Adventure,Monsoon,4.6,4,Karnataka,Kali river rafting and jungle safari
+Gokarna Om Beach,11000,Beach,Winter,4.5,3,Karnataka,Laid-back beach with hippie vibes
+Puri,13000,Beach,Winter,4.5,4,Odisha,Jagannath temple and golden beach
+Konark,10000,Cultural,Winter,4.7,2,Odisha,Sun temple UNESCO site and beach
+Chilika Lake,15000,Wildlife,Winter,4.6,3,Odisha,Asia's largest brackish water lake with dolphins
+Bhubaneswar,11000,Cultural,Winter,4.4,3,Odisha,Temple city with Lingaraj and tribal museums
+Gangtok,16000,Nature,Summer,4.7,5,Sikkim,Charming hill capital with Himalayan views and monasteries
+Pelling,18000,Nature,Summer,4.6,4,Sikkim,Kanchenjunga panorama with Rabdentse ruins
+Yuksom,20000,Adventure,Summer,4.7,5,Sikkim,Starting point of Goecha La trek
+Lachen,22000,Nature,Summer,4.8,4,Sikkim,Gateway to Gurudongmar Lake at 17000 ft
+Shillong,14000,Nature,Summer,4.6,4,Meghalaya,Scotland of East with living root bridges
+Cherrapunji,16000,Nature,Monsoon,4.7,3,Meghalaya,Wettest place on earth with stunning waterfalls
+Mawlynnong,15000,Nature,Summer,4.8,2,Meghalaya,Asia's cleanest village with living root bridge
+Dawki,13000,Nature,Summer,4.7,2,Meghalaya,Crystal clear Umngot river on Bangladesh border
+Dibrugarh,14000,Nature,Winter,4.4,3,Assam,Tea city of India with Brahmaputra river cruises
+Haflong,16000,Nature,Summer,4.5,3,Assam,Only hill station of Assam with scenic lake
